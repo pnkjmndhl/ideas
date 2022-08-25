@@ -1,0 +1,41 @@
+University of Tennessee, Knoxville
+
+************
+*ABC Matrix*
+************
+
+Description:
+	This python program randomly generates 2 matrices of sizes (M*N) and (N*O). It then calculates the product of those matrices.
+
+Source files:
+    ABCMatrix.py
+ 
+Run:
+    python ABCMatrix.py
+
+Inputs:
+    The program takes the rows and columns of the first matrix and the column of the second matrix.
+
+Outputs:
+    The output of the program is the product of the two randomly generated matrices.
+	
+
+**************
+*RandomXYZ*
+**************
+
+Description:
+	This program generates uniformly distributed X, Y and Z coordinates. These co-ordinates are independently generated for each axis. The program then displays the average distance between all these coordinates.
+
+Source files:
+    randomxyz.py
+
+Run:
+    python randomxyz.py
+
+Inputs:
+	The input is the number of points to generate.
+	
+Outputs:
+	The output is the co-ordinates of all the points generated and the average distance between them.
+

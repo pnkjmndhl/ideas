@@ -1,0 +1,73 @@
+University of Tennessee, Knoxville
+
+
+************
+*ABC Matrix*
+************
+
+Tests:
+    1. Case: All zero values
+       Input: 0 0 0
+       Output:
+          Product = 0
+
+    2. Case: one zero value
+       Input: 6 4 0
+       Output:
+          Product = 0
+
+    3. Case: All positive values
+       Input: 4 5 6
+       Output:
+          Product displayed successfully
+
+    4. Case: All values 1
+       Input: 1 1 1
+       Output:
+          Displays the product of the two randomly generated numbers
+
+    5. Case: negative values
+       Input: 4 5 -6
+       Output:
+          Error: Negative dimensions are not allowed
+
+    6. Case: Very large values
+       Input: 1000 2000 3000
+       Output:
+          Product displayed after 11 seconds
+
+    7. Case: Very large values with one zero value
+       Input: 1000 2000 0
+       Output:
+          Product = 0 displayed instantaneously
+
+**************
+*Random XYZ*
+**************
+
+    1. Case: Zero value
+       Input: 0
+       Output:
+          Distance = 0
+	
+    2. Case: One value
+       Input: 1
+       Output:
+          Distance = 0
+
+    3. Case: Negative Value
+       Input: -9
+       Output: 
+           Asks for a different input unless the input is greater than 0
+
+
+    4. Case: Small positive values
+       Input: 20
+       Output: 
+           Outputs the distance between uniformly distributed particles.
+
+    5. Case: Large Positive number
+       Input: 2000
+       Output: 
+           Takes 34 seconds to display the output.
+
